@@ -1,0 +1,268 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+%\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\usepackage{setspace}
+%\usepackage{marvosym}
+
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Esteban Andrés,}{Morales}
+\title{Currículum Vit\ae}                               % optional, remove / comment the line if not wanted
+\address{Marcelo T. de Alvear 1085\\ Torre 2 Piso 14 Dpto 5}{Córdoba, C.P.5000}{Argentina}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{0387-154-623893}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{0351-4288561}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{andresteve07@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{Estudiante de la Carrera\\ Ingeniería en Computación.\\
+\textbf{DNI:} 35.104.714\\
+}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{\textsc{ipsa scientia potestas est}}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage[•]{•}{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{\textsc{Educación}}
+\cventry{Finalizando}{Ingeniería en Computación}{Facultad de Ciencias Exactas Física y Naturales}{Córdoba}{Universidad Nacional de Córdoba}{}
+
+\cventry{2015}{Diplomatura en Gestión de Emprendimientos}{Escuela de Negocios}{Córdoba}{Universidad Siglo XXI}{}
+
+\cventry{2011}{Configuración y Mantenimiento de Servidores LINUX}{Departamento Universitario de Informática (DUI)}{Córdoba}{\textit{Curso de Servidores Linux}}{Un curso acerca de la implementación de servidores ssh en linux, configuración de servidores proxy, servidores DHCP, servidores DNS y sistemas de archivos en red.}
+
+\cventry{2010}{Instalación, Mantenimiento y Reparación de PC's.}{CISCO Networking Academy}{Córdoba}{\textit{Curso de IT Essentials}}{Un curso sobre la identificación y reparación de  problemas de hardware de la computadora como de software en entornos windows y linux.}
+
+\cventry{2007}{Economía y Gestión de las Organizaciones}{Colegio Salesiano Ángel Zerda}{Salta, Argentina}{\textit{Economía y Gestión de las Organizaciones}}{Formación de competencias técnicas, prácticas y sociales y estratégicas que permitan comprender y operar en las organizaciones según la realidad cambiante de hoy.}  % arguments 3 to 6 can be left empty
+
+\section{\textsc{Docencia}}
+\cventry{2014}{Informática Avanzada}{FCEFyN, UNC}{Córdoba}{}{Ayudante de alumnos en el dictado de la materia, como ayudante mis responsabilidades consistían en responder dudas de índole teórico-prácticas durante las clases, proponer consignas de trabajos prácticos y contribuir en la investigación sobre el desarrollo de aplicaciones Java con la plataforma embebida \textbf{Java ME Embedded 8.1} sobre las placas de prototipo \textbf{FRDM-K64F} de la serie Freedom de Freescale.}
+
+\cventry{2015}{Alfabetización Informática}{Escuela Superior de Comercio Manuel Belgrano}{Córdoba}{}{Profesor adjunto en el dictado del curso de alfabetización informática para adultos.}
+
+\section{\textsc{Experiencia Laboral}}
+\subsection{\textsc{Vocacional}}
+\cventry{2016}{Ingeniero de Software Junior}{Mercado Libre}{Córdoba}{}{Desarrollo y mantenimiento de servicios web orientados al e-comerse.}
+
+\cventry{2014-2015}{Técnico de Mantenimiento y Configuración de Redes}{Residencia Universitaria Salesiana R.U.S.}{Córdoba}{}{Encargado de la adquisición de dispositivos, equipos y demás insumos utilizados en la construcción y configuración de redes de distribución de internet y el intercambio de archivos.}
+
+\subsection{\textsc{Misceláneo}}
+\cventry{2010-2014}{Técnico de PC.}{Residentes R.U.S}{Córdoba}{}{Realicé configuraciones de hardware de computadoras de escritorio, reparación, formateo, instalación de Sistemas Operativos, mantenimiento, actualización, etc.\newline{}%
+Logros Alcanzados:%
+\begin{itemize}%
+\item Configuración de Hardware para computadoras de escritorio:
+	\begin{itemize}
+	\item Presupuestado y compra de los componentes. 
+	\item Instalación y Configuración Exitosa de los componentes.
+	\end{itemize}
+\item Configuración del Software:
+  \begin{itemize}%
+  \item Instalación y ajuste de Sistemas Operativos Windows;
+  \item Instalación y ajuste de Sistemas Operativos Linux;
+  \item Instalación y ajuste de programas específicos.
+  \end{itemize}
+\end{itemize}}
+
+\section{\textsc{Idiomas}}
+\cvitemwithcomment{Español}{Fluido Oral/Escrito}{Lengua de Origen}
+\cvitemwithcomment{Inglés}{Fluido Oral/Escrito}{Secundario + Universidad + Duolingo}
+
+\section{\textsc{Lenguajes de Programación}}
+\cvitemwithcomment{C/C++}{C++11}{Bueno}
+\cvitemwithcomment{Java}{Java 7}{Muy Bueno}
+\subsection{\textsc{Scripting}}
+\cvitemwithcomment{Bash de Linux}{4.2}{Muy Bueno}
+\cvitemwithcomment{Python}{Python 2.7}{Bueno}
+\cvitemwithcomment{Perl}{Perl 5}{Bueno}
+\cvitemwithcomment{Matlab}{2011}{Bueno}
+\cvitemwithcomment{Groovy}{2.4}{Bueno}
+\subsection{\textsc{Web}}
+\cvitemwithcomment{HTML}{HTML4}{Regular}
+\cvitemwithcomment{CSS}{CSS2.1}{Regular}
+\cvitemwithcomment{JavaScript}{JavaScript 1.6}{Regular}
+
+\section{\textsc{Frameworks}}
+\subsection{\textsc{Mobile}}
+\cvitemwithcomment{Android}{Android 5.0 API Level:21}{Regular}
+\cvitemwithcomment{iOS}{iOS 8.1}{Básico}
+\subsection{\textsc{Web}}
+\cvitemwithcomment{Grails}{2.3}{Bueno}
+
+\section{\textsc{Ingeniería de Software}}
+\subsection{\textsc{Gestión de Versiones}}
+\cvitemwithcomment{Git}{1.9}{Muy Bueno}
+\subsection{\textsc{Testing}}
+\cvitemwithcomment{JUnit}{4.10}{Regular}
+\cvitemwithcomment{Spock}{1.0}{Regular}
+\cvitemwithcomment{Mockito}{1.10}{Regular}
+\subsection{\textsc{Integración Contínua}}
+\cvitemwithcomment{Jenkins CI}{1.4}{Regular}
+\cvitemwithcomment{Travis CI}{-}{Regular}
+
+\section{\textsc{Microcontroladores}}
+\cvitemwithcomment{\textsc{CORTEX-M3}}{LPC1769[NXP](CMSISv2p00)}{Muy Bueno}
+\cvitemwithcomment{\textsc{CORTEX-M4}}{K64F[Freescale](MQX4.1-C)}{Regular}
+\cvitemwithcomment{\textsc{PIC(8-Bit)}}{PIC16F873A[Microchip](Assembly)}{Muy Bueno}
+\cvitemwithcomment{\textsc{AVR(8-Bit)}}{ATmega2560[Atmel](Arduino-C)}{Muy Bueno}
+
+\section{\textsc{Sistemas Operativos de Tiempo Real}}
+\cvitemwithcomment{\textsc{FreeRTOS}}{8.2.0}{Regular}
+\cvitemwithcomment{\textsc{MQX-RTOS}}{4.1.0}{Regular}
+
+\section{\textsc{Sistemas Operativos}}
+\cvitemwithcomment{\textsc{Linux}}{Debian/Ubuntu}{Muy Bueno}
+\cvitemwithcomment{\textsc{Linux}}{Fedora}{Bueno}
+\cvitemwithcomment{\textsc{Linux}}{Raspbian sobre Raspberry Pi}{Bueno}
+\cvitemwithcomment{\textsc{Windows}}{XP/Vista/7/8}{Muy Bueno}
+\cvitemwithcomment{\textsc{OS X}}{v10.11}{Muy Bueno}
+%\cvitemwithcomment{\textsc{Android}}{2.3/4.2}{Muy Bueno}
+
+\section{\textsc{Productividad y Diseño}}
+\cvitemwithcomment{\textsc{\LaTeX}}{Tex-Live 2012}{Muy Bueno}
+\cvitemwithcomment{\textsc{LibreOffice}}{4.2}{Muy Bueno}
+\cvitemwithcomment{\textsc{Inkscape}}{0.48}{Muy Bueno}
+\cvitemwithcomment{\textsc{Scribus}}{1.4}{Muy Bueno}
+\cvitemwithcomment{\textsc{Gimp}}{2.8}{Muy Bueno}
+\cvitemwithcomment{\textsc{Microsoft Office}}{2003/2007}{Muy Bueno}
+\cvitemwithcomment{\textsc{Corel DRAW}}{X3/X4/X6}{Muy Bueno}
+\cvitemwithcomment{\textsc{Photoshop}}{CS4}{Muy Bueno}
+
+\section{\textsc{Intereses}}
+\cvitem{\textit{Programación}}{Paso mis tiempos libres experimentando con las tendencias en frameworks para desarrollo web y aplicaciones móviles.}
+\cvitem{\textit{Emprendurismo}}{Actualmente formo parte de un equipo emprendedor con el que estamos incubando un plan de negocios en el ámbito de la UNC.}
+\cvitem{\textit{Diseño Gráfico}}{De vez en cuando realizo diseños de logotipos, diagramación editorial y páginas web.}
+
+\section{\textsc{Referencias}}
+\begin{cvcolumns}
+  \cvcolumn{Clientes}{
+  	\begin{itemize}
+  		\item Dardo Alberto Morales	\fixedphonesymbol \textit{(0387-4214421)}
+  		\item Mariano Agüero	\mobilephonesymbol \textit{(0351-153-505842)}
+  		\item Santiago Salamandri	\mobilephonesymbol \textit{(0351-157-710400)}
+  		\item Eleonora Cuenca \emailsymbol \textit{eleonora.cuenca@mercadolibre.com}
+  	\end{itemize}}
+\end{cvcolumns}
+
+
+\end{document}
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Secretaría Académica de 
+Investigación y Posgrado (Área de Ingeniería)}{ Facultad de Ciencias Exactas Físicas y Naturales \\Av.Velez Sarsfield 299.\\Ciudad Universitaria.\\Córdoba (Capital), Argentina}
+\date{Córdoba, Viernes 5 de Diciembre de 2014.}
+\opening{De mi mayor consideración:}
+\closing{Sin más particulares y a la espera de su respuesta le saludo atentamente.}
+\enclosure[Adjunto]{Curriculum Vit\ae e Historia Académica {}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Tengo el agrado de dirigirme a Ud. con el fin de comunicarle que es de mi completo interés ser considerado en la convocatoria para la selección de para cubrir una Beca de Asistencia Técnica en la secretaría Académica de Investigación y Posgrado (área Ingeniería), que el Área de Comunicaciones de la FCEFyN publicó recientemente.\\
+%A tal efecto adjunto, junto a la presente, mi CV.\\
+%y amplio manejo de software de oficina
+Me presento como una persona activa, responsable, amigable con aptitud para el trabajo en grupo y el liderazgo de proyectos. Entiendo y sigo procesos operativos y administrativos con facilidad. Adicionalmente poseo un amplio manejo de software de oficina y herramientas de gestión de datos por lo que en este particular rubro y en cualquier ámbito de las TICs, considero que estoy completamente capacitado para resolver de forma satisfactoria cualquier tarea que me sea asignada.\\
+Esta posibilidad de beca en trabajo de medio tiempo significa una buena oportunidad para poder continuar con mis estudios en lo que es mi más sincera confidencia. Por lo que conseguir el puesto sería sumamente pertinente.\\
+Si fuera necesario podría acercarme personalmente por cualquier consulta adicional o entrevista. Detallo mis datos personales y de contacto en el margen superior de la presente.
+
+
+
+\makeletterclosing
+
+%% end of file `template.tex'.
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Centro de Desarrollo de Software de MercadoLibre Córdoba}
+{Av. La Voz del Interior 7000,\\ 
+Ciudad Empresaria. \\
+Córdoba (Capital), Argentina.}
+\date{Córdoba, Lunes 16 de Noviembre de 2015.}
+\opening{De mi mayor consideración:}
+\closing{Sin más particulares y a la espera de su respuesta le saludo atentamente.}
+\enclosure[Adjunto]{Curriculum Vit\ae {}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\setlength\parindent{24pt}
+
+Tengo el agrado de dirigirme a Ud. con el fin de comunicarle que es de mi completo interés ser considerado en la convocatoria para la selección de aplicantes para el programa de capacitación \textbf{MELI Academy} que el Centro de Desarrollo de Software de \textbf{\textsf{MercadoLibre Córdoba}} publicó recientemente.\\
+%A tal efecto adjunto, junto a la presente, mi CV.\\
+%y amplio manejo de software de oficina
+Esta posibilidad de capacitación \textit{in company} representa definitivamente el mejor escenario al que podría aspirar
+en vistas al próximo año.\\
+Por diversas circunstancias tengo la imperativa necesidad de trabajar y debo confesar que, pasar 36 horas semanales en un call-center desde mi posición resulta en una perspectiva más bien desalentadora.\\
+Prefiero enormemente avocar todos mis esfuerzos en perfeccionar las habilidades que le sean de mayor utilidad al equipo de desarrollo donde sea asignado y con ello agregar valor a los productos y proyectos de la empresa.\\
+
+Me presento como una persona activa con iniciativa personal, responsable, amigable con aptitud para el trabajo en grupo y el liderazgo de proyectos.\\
+Poseo facilidad para entender nuevos procesos operativos y adaptarme a diversos flujos de trabajo.\\
+Estoy habituado a familiarizarme con nuevas herramientas de software y hardware con gran rapidez.\\
+
+Por lo expuesto considero que, en este particular rubro y en cualquier ámbito del desarrollo de software, estoy completamente capacitado para resolver de forma satisfactoria cualquier tarea que me sea asignada.\\
+Si fuera necesario podría acercarme personalmente por cualquier consulta adicional o entrevista. Detallo mis datos personales y de contacto en el margen superior de la presente.
+
+
+
+\makeletterclosing
+
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Centro de Centro de Diseño de Software de Intel}
+{Ciudad Empresaria. \\
+Córdoba (Capital), Argentina.}
+\date{Córdoba, Jueves 19 de Noviembre de 2015.}
+\opening{De mi mayor consideración:}
+\closing{Sin más particulares y a la espera de su respuesta le saludo atentamente.}
+\enclosure[Adjunto]{Curriculum Vit\ae {}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\setlength\parindent{24pt}
+
+Tengo el agrado de dirigirme a Ud. con el fin de comunicarle que es de mi completo interés ser considerado en la convocatoria para la selección de aplicantes que el Centro de Desarrollo de Software de \textbf{\textsf{Intel\textregistered  Córdoba}} publicó recientemente.\\
+%A tal efecto adjunto, junto a la presente, mi CV.\\
+%y amplio manejo de software de oficina
+No puedo imaginar un mejor ámbito para iniciar mi experiencia laboral y definitivamente representa el mejor escenario al que podría aspirar en vistas al próximo año.\\
+Por diversas circunstancias tengo la imperativa necesidad de trabajar y debo confesar que, pasar 36 horas semanales en un call-center es una perspectiva más bien desalentadora.\\
+Prefiero enormemente avocar todos mis esfuerzos en perfeccionar las habilidades que le sean de mayor utilidad al equipo de desarrollo donde sea asignado y con ello agregar valor a los productos y proyectos de la empresa.\\
+
+Me presento como una persona activa con iniciativa personal, responsable, amigable con aptitud para el trabajo en grupo y el liderazgo de proyectos.\\
+Poseo facilidad para entender nuevos procesos operativos y adaptarme a diversos flujos de trabajo.\\
+Estoy habituado a familiarizarme con nuevas herramientas de software y hardware con gran rapidez.\\
+
+Por lo expuesto considero que, en este particular rubro y en cualquier ámbito del desarrollo de software, estoy completamente capacitado para resolver de forma satisfactoria cualquier tarea que me sea asignada.\\
+Si fuera necesario podría acercarme personalmente por cualquier consulta adicional o entrevista. Detallo mis datos personales y de contacto en el margen superior de la presente.
+
+
+
+\makeletterclosing
